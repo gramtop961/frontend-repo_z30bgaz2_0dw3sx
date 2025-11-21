@@ -3,62 +3,15 @@
 > vite
 
 
-  VITE v5.4.20  ready in 271 ms
+  VITE v5.4.20  ready in 242 ms
 
   ➜  Local:   http://localhost:3000/
   ➜  Network: http://172.20.1.12:3000/
-12:35:28 PM [vite] Pre-transform error: Transform failed with 3 errors:
+12:37:50 PM [vite] Pre-transform error: Transform failed with 3 errors:
 /home/workspace/src/components/Footer.jsx:17:7: ERROR: The symbol "React" has already been declared
 /home/workspace/src/components/Footer.jsx:19:7: ERROR: Multiple exports with the same name "default"
 /home/workspace/src/components/Footer.jsx:19:24: ERROR: The symbol "Footer" has already been declared
-12:35:28 PM [vite] ✨ new dependencies optimized: framer-motion, @splinetool/react-spline, lucide-react
-12:35:28 PM [vite] ✨ optimized dependencies changed. reloading
-12:35:29 PM [vite] Internal server error: Transform failed with 3 errors:
-/home/workspace/src/components/Footer.jsx:17:7: ERROR: The symbol "React" has already been declared
-/home/workspace/src/components/Footer.jsx:19:7: ERROR: Multiple exports with the same name "default"
-/home/workspace/src/components/Footer.jsx:19:24: ERROR: The symbol "Footer" has already been declared
-  Plugin: vite:esbuild
-  File: /home/workspace/src/components/Footer.jsx:17:7
-  
-  The symbol "React" has already been declared
-  15 |    )
-  16 |  }
-  17 |  import React from 'react'
-     |         ^
-  18 |  
-  19 |  export default function Footer() {
-  
-  Multiple exports with the same name "default"
-  17 |  import React from 'react'
-  18 |  
-  19 |  export default function Footer() {
-     |         ^
-  20 |    return (
-  21 |      <footer className="bg-white border-t border-slate-200">
-  
-  The symbol "Footer" has already been declared
-  17 |  import React from 'react'
-  18 |  
-  19 |  export default function Footer() {
-     |                          ^
-  20 |    return (
-  21 |      <footer className="bg-white border-t border-slate-200">
-  
-      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
-      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
-      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
-      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
-      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
-      at Socket.emit (node:events:508:28)
-      at addChunk (node:internal/streams/readable:559:12)
-      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
-      at Readable.push (node:internal/streams/readable:390:5)
-      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
-12:35:30 PM [vite] Pre-transform error: Transform failed with 3 errors:
-/home/workspace/src/components/Footer.jsx:17:7: ERROR: The symbol "React" has already been declared
-/home/workspace/src/components/Footer.jsx:19:7: ERROR: Multiple exports with the same name "default"
-/home/workspace/src/components/Footer.jsx:19:24: ERROR: The symbol "Footer" has already been declared
-12:35:52 PM [vite] Internal server error: Transform failed with 3 errors:
+12:37:51 PM [vite] Internal server error: Transform failed with 3 errors:
 /home/workspace/src/components/Footer.jsx:17:7: ERROR: The symbol "React" has already been declared
 /home/workspace/src/components/Footer.jsx:19:7: ERROR: Multiple exports with the same name "default"
 /home/workspace/src/components/Footer.jsx:19:24: ERROR: The symbol "Footer" has already been declared
@@ -99,7 +52,48 @@
       at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
       at Readable.push (node:internal/streams/readable:390:5)
       at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
-12:36:20 PM [vite] Internal server error: Transform failed with 3 errors:
+12:37:51 PM [vite] Internal server error: Transform failed with 3 errors:
+/home/workspace/src/components/Footer.jsx:17:7: ERROR: The symbol "React" has already been declared
+/home/workspace/src/components/Footer.jsx:19:7: ERROR: Multiple exports with the same name "default"
+/home/workspace/src/components/Footer.jsx:19:24: ERROR: The symbol "Footer" has already been declared
+  Plugin: vite:esbuild
+  File: /home/workspace/src/components/Footer.jsx:17:7
+  
+  The symbol "React" has already been declared
+  15 |    )
+  16 |  }
+  17 |  import React from 'react'
+     |         ^
+  18 |  
+  19 |  export default function Footer() {
+  
+  Multiple exports with the same name "default"
+  17 |  import React from 'react'
+  18 |  
+  19 |  export default function Footer() {
+     |         ^
+  20 |    return (
+  21 |      <footer className="bg-white border-t border-slate-200">
+  
+  The symbol "Footer" has already been declared
+  17 |  import React from 'react'
+  18 |  
+  19 |  export default function Footer() {
+     |                          ^
+  20 |    return (
+  21 |      <footer className="bg-white border-t border-slate-200">
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+12:37:56 PM [vite] Internal server error: Transform failed with 3 errors:
 /home/workspace/src/components/Footer.jsx:17:7: ERROR: The symbol "React" has already been declared
 /home/workspace/src/components/Footer.jsx:19:7: ERROR: Multiple exports with the same name "default"
 /home/workspace/src/components/Footer.jsx:19:24: ERROR: The symbol "Footer" has already been declared
